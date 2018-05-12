@@ -1,11 +1,11 @@
 /*BITTE WEITER GEHEN - HIER GIBT ES NICHTS ZU SEHEN!!!*/
 
 body{
-    background-image: url("images/background.jpg");
+    background-color: #B0E2FF;
+    /*background-image: url("images/background.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    margin: 0;
-    padding: 0;
+    */
 }
 
 input{
@@ -65,7 +65,7 @@ input{
     display: inline-block;
     font-size: 75%;
     margin: 4% 2%;
-    width: 200px;metalldetek
+    width: 200px;
     min-width: 200px;
     min-height: 250px;
 	border-radius: 3%;
