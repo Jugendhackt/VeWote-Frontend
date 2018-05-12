@@ -56,13 +56,12 @@ input{
 
 #votingCard {
     text-align: center;
-	background-color: white;
+	background-color: #FFF;
     border: 2px solid #202020;
     color: rgb(51, 45, 45);
     padding: 2% 4%;
     text-align: center;
     text-decoration: none;
-	cursor: pointer;
     display: inline-block;
     font-size: 75%;
     margin: 4% 2%;
@@ -70,6 +69,10 @@ input{
     min-width: 200px;
     min-height: 250px;
 	border-radius: 3%;
+}
+
+#votingCard:hover {
+    box-shadow: 0 6px 20px 0 rgba(70, 70, 70, 0.4);
 }
 
 .click {
