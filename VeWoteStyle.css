@@ -28,7 +28,7 @@ body{
 	margin: 0;
 	padding: 10px;
 	overflow: hidden;
-	background-color: #96B4FF;
+	background-color: rgb(110, 110, 110);
 }
 
 #navigationMenu li{
@@ -87,6 +87,6 @@ body{
 
 #footer {
     padding:10px;
-    background-color: #96B4FF;
+    background-color: rgb(110, 110, 110);
     box-shadow: 3px 5px #bdb8b838;
 }
