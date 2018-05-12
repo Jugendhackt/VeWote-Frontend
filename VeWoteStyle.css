@@ -30,7 +30,7 @@ body{
 	margin: 0;
 	padding: 10px;
 	overflow: hidden;
-	background-color: #96B4FF;
+	background-color: rgb(110, 110, 110);
 }
 
 #navigationMenu li{
@@ -46,7 +46,7 @@ body{
 }
 
 #navigationMenu li a:hover{
-	background:lightblue;
+	background:rgb(255, 255, 255);
 }
 
 #votingCard {
@@ -91,5 +91,5 @@ body{
 
 #footer {
     padding:10px;
-    background-color: #96B4FF;
+    background-color: rgb(110, 110, 110);
 }
