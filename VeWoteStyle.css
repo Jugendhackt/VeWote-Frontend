@@ -9,7 +9,11 @@
 }*/
 
 body{
-    background-image:url("images/background.jpg");
+    background-image: url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
@@ -24,21 +28,21 @@ h1 {
 
 #navigationMenu{
 	position: sticky;
-	top:5px;
-    width:100%;
+	top: 5px;
+    width: 100%;
     box-shadow: 3px 5px #bdb8b838;
 }
 
 #navigationMenu ul{
 	list-style-type: none;
-	margin:0;
-	padding:10px;
-	overflow:hidden;
+	margin: 0;
+	padding: 10px;
+	overflow: hidden;
 	background-color: #96B4FF;
 }
 
 #navigationMenu li{
-	display:inline;
+    display: inline;
 }
 
 #navigationMenu li a{
@@ -53,7 +57,7 @@ h1 {
 	background:lightblue;
 }
 
-#container1 {
+#votingCard {
     text-align: center;
 	background-color: white;
     border: 2px solid #0a67ff;
@@ -78,7 +82,7 @@ h1 {
 	cursor: pointer;
     font-size: 95%;
     margin: 4% 2%;
-	width: 95% ;
+	width: 95%;
     transition-duration: 0.2s;
 	border-radius: 5%;
 	text-align: center;
@@ -90,6 +94,7 @@ h1 {
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 	border: 1px solid #0a67ff;
 }
+
 #footer {
     padding:10px;
     background-color: #96B4FF;
