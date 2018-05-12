@@ -57,10 +57,10 @@ input{
 
 .votingCard {
     text-align: center;
-	background-color: #FFF;
+	background-color: white;
     border: 2px solid #202020;
     color: rgb(51, 45, 45);
-    padding: 2% 4%;
+    padding: 2% 3.5%;
     text-align: center;
     text-decoration: none;
     display: inline-block;
