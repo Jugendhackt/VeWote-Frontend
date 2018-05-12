@@ -14,7 +14,7 @@ body {
 
 h1 {
 	font-size: 50px;
-	margin-bottom: 15% ;
+	margin-bottom: 15%;
 }
 
 #container1 {
@@ -42,7 +42,7 @@ h1 {
 	cursor: pointer;
     font-size: 95%;
     margin: 4% 2%;
-	width: 95% ;
+	width: 95%;
     transition-duration: 0.2s;
 	border-radius: 5%;
 	text-align: center;
