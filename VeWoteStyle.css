@@ -8,6 +8,10 @@
     box-shadow: 3px 5px #bdb8b838;
 }*/
 
+h1 {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 #navigationMenu{
 	position: sticky;
 	top:5px;
