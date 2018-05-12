@@ -1,11 +1,9 @@
 /*BITTE WEITER GEHEN - HIER GIBT ES NICHTS ZU SEHEN!!!*/
 
 body{
-    background-color: #B0E2FF;
-    /*background-image: url("images/background.jpg");
+    background-image: url("images/background.svg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    */
     margin:0;
     padding:0;
 }
