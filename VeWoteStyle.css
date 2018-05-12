@@ -84,12 +84,17 @@ h3 {
     text-decoration: none;
     font-size: 75%;
     margin: 4% 2%;
+    margin-bottom: 0;
     width: 200px;
     min-width: 200px;
     min-height: 250px;
     border-radius: 3%;
     display: inline-block;
     vertical-align: top;
+}
+
+#content {
+    margin-bottom: 2%;
 }
 
 .card:hover {
