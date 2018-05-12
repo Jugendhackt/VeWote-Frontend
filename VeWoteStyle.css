@@ -12,6 +12,12 @@ h1 {
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+#header img{
+    display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 #navigationMenu{
 	position: sticky;
 	top:5px;
