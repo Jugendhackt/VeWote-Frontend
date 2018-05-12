@@ -1,4 +1,4 @@
-#votingCard {
+/*#votingCard {
     border-width:3px;
     border-radius:10px;
     border-style:solid;
@@ -6,7 +6,7 @@
     margin:10px;
     padding:5px;
     box-shadow: 3px 5px #bdb8b838;
-}
+}*/
 
 #navigationMenu{
 	position: sticky;
@@ -75,4 +75,10 @@
 	background-color: #96b4ff;
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 	border: 1px solid #0a67ff;
+}
+#footer {
+    padding:10px;
+    background-color: #96B4FF;
+    border-radius: 10px;
+    box-shadow: 3px 5px #bdb8b838;
 }
