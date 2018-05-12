@@ -42,7 +42,7 @@ h1 {
 }
 
 #navigationMenu li{
-	display: inline;
+    display: inline;
 }
 
 #navigationMenu li a{
@@ -82,7 +82,7 @@ h1 {
 	cursor: pointer;
     font-size: 95%;
     margin: 4% 2%;
-	width: 95% ;
+	width: 95%;
     transition-duration: 0.2s;
 	border-radius: 5%;
 	text-align: center;
