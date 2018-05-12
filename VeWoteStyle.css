@@ -8,6 +8,10 @@ body{
     padding: 0;
 }
 
+input{
+    margin:5px;
+}
+
 #header {
     background-color: rgba(255, 255, 255, 0.5);
 }
@@ -61,7 +65,7 @@ body{
     display: inline-block;
     font-size: 75%;
     margin: 4% 2%;
-    width: 200px;
+    width: 200px;metalldetek
     min-width: 200px;
     min-height: 250px;
 	border-radius: 3%;
