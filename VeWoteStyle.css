@@ -28,7 +28,7 @@ body{
 	margin: 0;
 	padding: 10px;
 	overflow: hidden;
-	background-color: #96B4FF;
+	background-color: rgb(110, 110, 110);
 }
 
 #navigationMenu li{
@@ -44,7 +44,7 @@ body{
 }
 
 #navigationMenu li a:hover{
-	background:lightblue;
+	background:rgb(197, 197, 197);
 }
 
 #votingCard {
@@ -65,7 +65,7 @@ body{
 
 .click {
     background-color: white;
-    border: 1px solid #96b4ff;
+    border: 1px solid #707070;
     color: black;
     padding: 10% 30%;
     text-decoration: none;
@@ -80,13 +80,13 @@ body{
 
 
 .click:hover {
-	background-color: #96b4ff;
+	background-color: #ffffff;
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-	border: 1px solid #0a67ff;
+	border: 1px solid #000000;
 }
 
 #footer {
     padding:10px;
-    background-color: #96B4FF;
+    background-color: rgb(110, 110, 110);
     box-shadow: 3px 5px #bdb8b838;
 }
