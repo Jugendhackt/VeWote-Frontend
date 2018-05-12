@@ -1,16 +1,16 @@
 /*BITTE WEITER GEHEN - HIER GIBT ES NICHTS ZU SEHEN!!!*/
 
-body{
+body {
     background-image: url("images/background.svg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
 }
 
-input{
-    margin:5px;
+input {
+    margin: 5px;
 }
 
 #header {
@@ -19,45 +19,46 @@ input{
     padding-bottom: 4px;
 }
 
-#header img{
+#header img {
     display: block;
-	margin-left: auto;
+    margin-left: auto;
     margin-right: auto;
 }
 
-#navigationMenu{
-	position: sticky;
-	top: 5px;
+#navigationMenu {
+    position: sticky;
+    top: 5px;
     width: 100%;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-}
-#navigationMenu ul{
-	list-style-type: none;
-	margin: 0;
-	padding: 10px;
-	overflow: hidden;
-	background-color: #96b4ff;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-#navigationMenu li{
+#navigationMenu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #96b4ff;
+}
+
+#navigationMenu li {
     display: inline;
 }
 
-#navigationMenu li a{
-	color:rgb(85, 85, 85);
-	padding:10px;
-	padding-right:20px;
-	text-decoration:none;
-    text-decoration:bold;
+#navigationMenu li a {
+    color: rgb(85, 85, 85);
+    padding: 10px;
+    padding-right: 20px;
+    text-decoration: none;
+    text-decoration: bold;
 }
 
-#navigationMenu li a:hover{
-    color:black;
+#navigationMenu li a:hover {
+    color: black;
 }
 
 .votingCard {
     text-align: center;
-	background-color: white;
+    background-color: white;
     border: 2px solid #202020;
     color: rgb(51, 45, 45);
     padding: 2% 3.5%;
@@ -87,23 +88,22 @@ h2 {
     color: black;
     padding: 10% 30%;
     text-decoration: none;
-	cursor: pointer;
+    cursor: pointer;
     font-size: 95%;
     margin: 4% 2%;
-	width: 95%;
+    width: 95%;
     transition-duration: 0.2s;
-	border-radius: 5%;
-	text-align: center;
+    border-radius: 5%;
+    text-align: center;
 }
 
-
 .click:hover {
-	background-color: #ffffff;
-	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-	border: 1px solid #000000;
+    background-color: #ffffff;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 1px solid #000000;
 }
 
 #footer {
-    padding:10px;
+    padding: 10px;
     background-color: #96b4ff;
 }
