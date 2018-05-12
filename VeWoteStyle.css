@@ -42,7 +42,7 @@ input{
 }
 
 #navigationMenu li a{
-	color:rgb(44, 43, 43);
+	color:rgb(85, 85, 85);
 	padding:10px;
 	padding-right:20px;
 	text-decoration:none;
@@ -50,7 +50,7 @@ input{
 }
 
 #navigationMenu li a:hover{
-	background:rgb(255, 255, 255);
+    color:black;
 }
 
 #votingCard {
