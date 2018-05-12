@@ -52,7 +52,7 @@ h3 {
     display: inline;
 }
 
-#navigationMenu li a {
+#navigationMenu li a, .rightnav li {
     color: rgb(85, 85, 85);
     padding: 10px;
     padding-right: 20px;
@@ -63,6 +63,16 @@ h3 {
 #navigationMenu li a:hover {
     color: #2e2e2e;
 	transition-duration: 0.25s;
+}
+
+.rightnav {
+    float: right;
+}
+
+.rightnav {
+    color: rgb(85, 85, 85);
+    text-decoration: none;
+    text-decoration: bold;
 }
 
 .card {
