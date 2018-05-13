@@ -181,13 +181,13 @@ h2 {
     width: 150px;
     -webkit-filter: saturate(0.9); 
     filter: saturate(0.8);
-    transition-duration: 0.5s;
+    transition-duration: 1s;
 }
 
 .a_logo:hover {
     -webkit-filter: saturate(10); 
     filter: saturate(10);
-    transform: rotate(5deg);
+    transform: rotate(360deg);
 }
 
 @-webkit-keyframes animation {
