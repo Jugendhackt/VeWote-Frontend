@@ -164,7 +164,6 @@ h2 {
 }
 #content {
     text-align: center;
-<<<<<<< HEAD
 }
 
 .a_logo {
@@ -190,6 +189,4 @@ h2 {
     0%   {width: 7.5%}
     50%  {width: 12.5%; left: 0.75%; top: 0.75%; }
     100% {width: 7.5%}
-=======
->>>>>>> 7ae3500192c5f7546d0e1337d3d1e6c4c8134d6f
 }
