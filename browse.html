@@ -14,52 +14,46 @@
 </head>
 
 <body>
-
-    <div id="header">
-        <img src="images/Logo.png" alt="Header: VeWote" height="150" />
-    </div>
-
     <div id="navigationMenu">
         <ul>
             <li>
-                <a href="index.html">Home</a>
+                <img src="images/Logo.png" alt="Header: VeWote" height="16" />
             </li>
             <li>
-                <a href="polls.html">Umfragen</a>
+                <a href="index.html">HOME</a>
             </li>
             <li>
-                <a href="add.html">Umfrage erstellen</a>
+                <a href="polls.html">UMFRAGEN</a>
             </li>
             <li>
-                <a href="browse.html">Themenauswahl</a>
+                <a href="add.html">UMFRAGE ERSTELLEN</a>
+            </li>
+            <li>
+                <a href="browse.html">THEMEN</a>
             </li>
             <li class="rightnav" onclick="filterText();">
-                Filter
+                FILTER
             </li>
         </ul>
     </div>
-
-    <center>
         <div id="content">
             <div class="card">
                 <h2>Meine Themen:</h2>
                 <br>
                 <form action=" ">
                     <input type="checkbox" name="Familien" value="Familien">Familienpolitik
-                    <BR>
+                    <br />
                     <input type="checkbox" name="Umwelt" value="Umwelt">Umweltpolitik
-                    <BR>
+                    <br />
                     <input type="checkbox" name="Bildung" value="Bildung">Bildungspolitik
-                    <BR>
+                    <br />
                     <input type="checkbox" name="Internet" value="Internet">Internetpolitik
-                    <BR>
-                    <input type="button" name="submit" value="Bestätigen">
-                    <input type="reset" name="reset" value="Nichts auswählen">
-                    </p>
+                    <br />
+                    <button type="submit">Bestätigen</button>
+                    <button type="reset">Nichts auswählen</button>
                 </form>
             </div>
         </div>
-    </center>
 
     <div id="footer">
         by Hannes, Joshua, Nikolai, Tobias, Nicolas und Vincent | #jhcgn18
