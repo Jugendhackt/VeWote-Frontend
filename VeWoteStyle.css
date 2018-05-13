@@ -186,7 +186,8 @@ h2 {
 
 .a_logo:hover {
     -webkit-filter: saturate(10); 
-    filter: saturate(10)
+    filter: saturate(10);
+    transform: rotate(5deg);
 }
 
 @-webkit-keyframes animation {
