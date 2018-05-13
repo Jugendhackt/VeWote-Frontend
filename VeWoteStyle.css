@@ -175,18 +175,17 @@ h2 {
     animation-name: animation;
     animation-duration: 2s;
     animation-iteration-count: infinite;
-    left: 1.25%;
-    top: 1.25%;
+    
 }
 
 @-webkit-keyframes animation {
-    0%   {width: 7.5%}
-    50%  {width: 12.5% }
-    100% {width: 7.5%}
+    0%   {width: 75px}
+    50%  {width: 150px;}
+    100% {width: 75px}
 }
 
 @keyframes animation {
-    0%   {width: 7.5%}
-    50%  {width: 12.5%; left: 0.75%; top: 0.75%; }
-    100% {width: 7.5%}
+    0%   {width: 75px}
+    50%  {width: 150px;}
+    100% {width: 75px}
 }
