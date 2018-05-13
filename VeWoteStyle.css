@@ -195,6 +195,6 @@ h2 {
 }
 
 @keyframes animation {
-    0%   {left: 5px}
+    0%   {left: -200px}
     100%  {left: 140px}
 }
