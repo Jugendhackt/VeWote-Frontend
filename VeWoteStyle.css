@@ -81,13 +81,12 @@ h3 {
 
 .dropdown {
     display:none;
-    position: sticky;
-    background-color: #f1f1f1;
-    min-width: 160px;
+    z-index:1;
+    position: fixed;
     background-color: #96b4ff;
     box-shadow: inset 0 3px 0 rgb(184, 211, 255);
     border: 1px solid #3079ED;
-    float:right;
+    right:0;
     top:48px;
 }
 
@@ -165,6 +164,7 @@ h2 {
 }
 #content {
     text-align: center;
+<<<<<<< HEAD
 }
 
 .a_logo {
@@ -190,4 +190,6 @@ h2 {
     0%   {width: 7.5%}
     50%  {width: 12.5%; left: 0.75%; top: 0.75%; }
     100% {width: 7.5%}
+=======
+>>>>>>> 7ae3500192c5f7546d0e1337d3d1e6c4c8134d6f
 }
