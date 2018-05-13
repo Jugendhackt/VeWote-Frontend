@@ -78,6 +78,7 @@ h3 {
     float: right;
     cursor: pointer;
     position: fixed;
+    top:11px;
     right: 20px;
 }
 
