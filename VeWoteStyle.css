@@ -77,6 +77,8 @@ h3 {
     text-decoration: bold;
     float: right;
     cursor: pointer;
+    position: fixed;
+    right: 20px;
 }
 
 .dropdown {
