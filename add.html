@@ -14,11 +14,9 @@
 </head>
 
 <body>
-
     <div id="header">
         <img src="images/Logo.png" alt="Header: VeWote" height="210" />
     </div>
-
     <div id="navigationMenu">
         <ul>
             <li>
@@ -38,24 +36,24 @@
             </li>
         </ul>
     </div>
-
-    <div id="content">
-        <div class="card">
-            <h2>Umfrage erstellen</h2>
-            <br>
-            <form action=" ">
-                <label>Umfrage-Überschrift:</label>
+    <center>
+        <div id="content">
+            <div class="card">
+                <h2>Umfrage erstellen</h2>
                 <br>
-                <input type="text" name="Überschrift" placeholder="Überschrift" />
-                <label>Antwortmöglichkeiten:</label>
-                <input type="text" name="Text" placeholder="Antwortmöglichkeit 1" />
-                <input type="text2" name="Text2" placeholder="Antwortmöglichkeit 2" />
-                <input type="text3" name="Text3" placeholder="Antwortmöglichkeit 3" />
-                <input type="submit" value="Umfrage starten!" />
-            </form>
+                <form id="create" action="">
+                    <label>Umfrage-Überschrift:</label>
+                    <br>
+                    <input type="text" name="Überschrift" placeholder="Überschrift" />
+                    <label>Antwortmöglichkeiten:</label>
+                    <input type="text" name="Text" placeholder="Antwortmöglichkeit 1" required="required" />
+                    <input type="text2" name="Text2" placeholder="Antwortmöglichkeit 2" required="required" />
+                    <input type="text3" name="Text3" placeholder="Antwortmöglichkeit 3" />
+                    <button type="submit">Umfrage starten!</button>
+                </form>
+            </div>
         </div>
-
-    </div>
+    </center>
 
     <div id="footer">
         by Hannes, Joshua, Nikolai, Tobias, Nicolas und Vincent | #jhcgn18
