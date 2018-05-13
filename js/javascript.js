@@ -4,5 +4,5 @@ function vote(id, option) {     // Wird ausgeführt durch Buttons von Umfrage
 }
 
 function showChart(id) {        // Erstelle Chart in 
-
+    
 }
