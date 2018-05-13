@@ -52,8 +52,16 @@
         if (!evt) evt = event; 
 
         if (evt.altKey && evt.keyCode === 86) {
-            alert("Hey, du hast den VeWote Key geknackt!\n :)"); 
+            alert("Upside down!\n :)"); 
+
+            document.getElementById("content").style.transitionDuration = "2s";
+            document.getElementById("content").style.transform = "rotate(180deg)";
+            document.getElementById("navigationMenu").style.transitionDuration = "2s";
+            document.getElementById("navigationMenu").style.transform = "rotate(180deg)";
+            document.getElementById("footer").style.transitionDuration = "2s";
+            document.getElementById("footer").style.transform = "rotate(180deg)";
         }
+
     }
     </script>
 </body>
