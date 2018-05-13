@@ -19,10 +19,10 @@
     <div id="navigationMenu">
         <ul>
             <li>
-                <a href="index.html">Einführung</a>
+                <a href="index.html">Home</a>
             </li>
             <li>
-                <a href="VeWote.html">Umfragen</a>
+                <a href="umfragen.html">Umfragen</a>
             </li>
             <li>
                 <a href="add.html">Umfrage erstellen</a>
@@ -30,28 +30,35 @@
             <li>
                 <a href="subjects.html">Themenauswahl</a>
             </li>
+            <li class="rightnav" onclick="filterText();">
+                Filter
+            </li>
         </ul>
     </div>
 
 
     <div id="content">
-        <div class="card"> 
+        <div class="card">
             <h2>Meine Themen:</h2>
-            <br> 
+            <br>
             <form action=" ">
-            <input type="checkbox" name="Familien" value="Familien">Familienpolitik<BR>
-            <input type="checkbox" name="Umwelt" value="Umwelt">Umweltpolitik<BR>
-            <input type="checkbox" name="Bildung" value="Bildung">Bildungspolitik<BR>
-            <input type="checkbox" name="Internet" value="Internet">Internetpolitik<BR>
-            <input type="button" name="submit" value="Bestätigen">
-            <input type="reset" name="reset" value="Nichts auswählen">
-            </p> 
-        </form>
-    </div>
+                <input type="checkbox" name="Familien" value="Familien">Familienpolitik
+                <BR>
+                <input type="checkbox" name="Umwelt" value="Umwelt">Umweltpolitik
+                <BR>
+                <input type="checkbox" name="Bildung" value="Bildung">Bildungspolitik
+                <BR>
+                <input type="checkbox" name="Internet" value="Internet">Internetpolitik
+                <BR>
+                <input type="button" name="submit" value="Bestätigen">
+                <input type="reset" name="reset" value="Nichts auswählen">
+                </p>
+            </form>
+        </div>
     </div>
 
     <div id="footer">
-        <a href="impressum.html">Kein Impressum</a> | by Hannes, Joshua, Nikolai, Tobias, Nicolas und Vincent
+        by Hannes, Joshua, Nikolai, Tobias, Nicolas und Vincent | #jhcgn18
     </div>
 </body>
 
