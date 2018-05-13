@@ -49,6 +49,7 @@ h3 {
     background-color: #96b4ff;
     box-shadow: inset 0 3px 0 rgb(184, 211, 255);
     border: 1px solid #3079ED;
+    text-align: center;
 }
 
 #navigationMenu li {
@@ -115,6 +116,15 @@ h3 {
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+h1 {
+    position: relative;
+    -webkit-animation-name: animation; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    animation-name: flash;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
 
 h2 {
     font-size: 2.2em;
@@ -158,25 +168,26 @@ h2 {
 }
 
 .a_logo {
-    position: relative;
-    -webkit-animation-name: animation; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
-    -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    -webkit-animation-name: animation;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+
+    position: fixed;
     animation-name: animation;
     animation-duration: 2s;
     animation-iteration-count: infinite;
+    left: 1.25%;
+    top: 1.25%;
 }
 
-/* Safari 4.0 - 8.0 */
-@-webkit-keyframes example {
+@-webkit-keyframes animation {
     0%   {width: 7.5%}
-    50%  {width: 15%}
+    50%  {width: 12.5% }
     100% {width: 7.5%}
 }
 
-/* Standard syntax */
 @keyframes animation {
     0%   {width: 7.5%}
-    50%  {width: 15%}
+    50%  {width: 12.5%; left: 0.75%; top: 0.75%; }
     100% {width: 7.5%}
 }
