@@ -12,12 +12,9 @@ let massPopChart = new Chart(myChart, {
         datasets: [{
             label: 'Stimmen',
             data: [
-                617594,
-                181045,
-                153060,
-                106519,
-                105162,
-                95072
+                12,
+                65,
+                23,
             ],
             //backgroundColor:'green',
             backgroundColor: [
@@ -38,7 +35,7 @@ let massPopChart = new Chart(myChart, {
     options: {
         title: {
             display: true,
-            text: 'Auswertungen',
+            text: 'Auswertung in %',
             fontSize: 25
         },
         legend: {
