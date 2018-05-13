@@ -156,3 +156,27 @@ h2 {
 #content {
     text-align: center;
 }
+
+.a_logo {
+    position: relative;
+    -webkit-animation-name: animation; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    animation-name: animation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    0%   {width: 7.5%}
+    50%  {width: 15%}
+    100% {width: 7.5%}
+}
+
+/* Standard syntax */
+@keyframes animation {
+    0%   {width: 7.5%}
+    50%  {width: 15%}
+    100% {width: 7.5%}
+}
