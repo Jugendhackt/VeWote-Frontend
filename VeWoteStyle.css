@@ -170,15 +170,14 @@ h2 {
 
 .a_logo {
     -webkit-animation-name: animation;
-    -webkit-animation-duration: 2s;
-    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 1s;
 
     position: fixed;
     animation-name: animation;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
+    animation-duration: 1s;
     top: 9px;
     width: 150px;
+    left: 140px;
     -webkit-filter: saturate(0.9); 
     filter: saturate(0.8);
     transition-duration: 1s;
@@ -192,12 +191,10 @@ h2 {
 
 @-webkit-keyframes animation {
     0%   {left: 70px}
-    50%  {left: 210px}
-    100% {left: 70px}
+    100%  {left: 140px}
 }
 
 @keyframes animation {
-    0%   {left: 70px}
-    50%  {left: 210px}
-    100% {left: 70px}
+    0%   {left: 5px}
+    100%  {left: 140px}
 }
