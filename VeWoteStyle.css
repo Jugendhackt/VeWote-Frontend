@@ -175,7 +175,8 @@ h2 {
     animation-name: animation;
     animation-duration: 2s;
     animation-iteration-count: infinite;
-    
+    top: 9px;
+    width: 150px;
 }
 
 @-webkit-keyframes animation {
@@ -185,7 +186,7 @@ h2 {
 }
 
 @keyframes animation {
-    0%   {width: 75px}
-    50%  {width: 150px;}
-    100% {width: 75px}
+    0%   {left: 70px}
+    50%  {left: 210px}
+    100% {left: 70px}
 }
