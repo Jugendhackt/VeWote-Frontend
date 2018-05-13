@@ -17,7 +17,7 @@
     <div id="navigationMenu">
         <ul>
             <li>
-             <img src="images/Logo.png" alt="Header: VeWote" height="16px" />
+                <img src="images/Logo.png" alt="Header: VeWote" height="16px" />
             </li>
             <li>
                 <a href="index.html">HOME</a>
@@ -36,140 +36,85 @@
             </li>
         </ul>
     </div>
-        <div id="content">
-            <div class="card">
-                <h2>Wie essen Sie ihr Steak am liebsten?</h2>
-                <form id="ersteEinmaligeId">
-                    <button class="click" type="button" onclick="vote('ersteEinmaligeId',0)">Roh</button>
-                    <br>
-                    <button class="click" type="button" onclick="vote('ersteEinmaligeId',1)">Medium</button>
-                    <br>
-                    <button class="click" type="button" onclick="vote('ersteEinmaligeId',2)">Durchgebraten</button>
-                </form>
-            </div>
-            <div class="card" id="id2">
-                <h2>Wie essen Sie ihre Zucchini am liebsten?</h2>
-                <form>
-                    <button class="click" type="button">Roh</button>
-                    <br>
-                    <button class="click" type="button">Medium</button>
-                    <br>
-                    <button class="click" type="button">Durchgebraten</button>
-                </form>
-            </div>
-            <div class="card">
-                <h2>Ist Jugend hackt toll?</h2>
-                <form>
-                    <button class="click" type="button">Ja</button>
-                    <br>
-                    <button class="click" type="button">Nein</button>
-                </form>
-            </div>
-            <div class="card">
-                <h2>Ist Jugend hackt toll?</h2>
-                <form>
-                    <button class="click" type="button">Ja</button>
-                    <br>
-                    <button class="click" type="button">Nein</button>
-                </form>
-            </div>
-            <div class="card">
-                <h2>Ist Jugend hackt toll?</h2>
-                <form>
-                    <button class="click" type="button">Ja</button>
-                    <br>
-                    <button class="click" type="button">Nein</button>
-                </form>
-            </div>
-            <div class="card">
-                <h2>Ist Jugend hackt toll?</h2>
-                <form>
-                    <button class="click" type="button">Ja</button>
-                    <br>
-                    <button class="click" type="button">Nein</button>
-                </form>
-            </div>
-            <div class="card">
-                <h2>Ist Jugend hackt toll?</h2>
-                <form>
-                    <button class="click" type="button">Ja</button>
-                    <br>
-                    <button class="click" type="button">Nein</button>
-                </form>
-            </div>
+
+    <div id="dropdown-box" class="dropdown">
+        <input type="checkbox" name="Familien" value="Familien">Familienpolitik
+        <BR>
+        <input type="checkbox" name="Umwelt" value="Umwelt">Umweltpolitik
+        <BR>
+        <input type="checkbox" name="Bildung" value="Bildung">Bildungspolitik
+        <BR>
+        <input type="checkbox" name="Internet" value="Internet">Internetpolitik
+    </div>
+    <div id="content">
+        <div class="card">
+            <h2>Wie essen Sie ihr Steak am liebsten?</h2>
+            <form id="ersteEinmaligeId">
+                <button class="click" type="button" onclick="vote('ersteEinmaligeId',0)">Roh</button>
+                <br>
+                <button class="click" type="button" onclick="vote('ersteEinmaligeId',1)">Medium</button>
+                <br>
+                <button class="click" type="button" onclick="vote('ersteEinmaligeId',2)">Durchgebraten</button>
+            </form>
         </div>
-        <div class="container">
-                <canvas id="myChart"></canvas>
-              </div>
-            
-              <script>
-                let myChart = document.getElementById('myChart').getContext('2d');
-            
-                // Global Options
-                Chart.defaults.global.defaultFontFamily = 'Lato';
-                Chart.defaults.global.defaultFontSize = 18;
-                Chart.defaults.global.defaultFontColor = '#777';
-            
-                let massPopChart = new Chart(myChart, {
-                  type:'pie', // bar, horizontalBar, pie, line, doughnut, radar, polarArea
-                  data:{
-                    labels:['Roh', 'Medium', 'Durchgebraten'],
-                    datasets:[{
-                      label:'Stimmen',
-                      data:[
-                        617594,
-                        181045,
-                        153060,
-                        106519,
-                        105162,
-                        95072
-                      ],
-                      //backgroundColor:'green',
-                      backgroundColor:[
-                        'rgba(255, 99, 132, 0.6)',
-                        'rgba(54, 162, 235, 0.6)',
-                        'rgba(255, 206, 86, 0.6)',
-                        'rgba(75, 192, 192, 0.6)',
-                        'rgba(153, 102, 255, 0.6)',
-                        'rgba(255, 159, 64, 0.6)',
-                        'rgba(255, 99, 132, 0.6)'
-                      ],
-                      borderWidth:1,
-                      borderColor:'#777',
-                      hoverBorderWidth:3,
-                      hoverBorderColor:'#000'
-                    }]
-                  },
-                  options:{
-                    title:{
-                      display:true,
-                      text:'Auswertungen',
-                      fontSize:25
-                    },
-                    legend:{
-                      display:true,
-                      position:'right',
-                      labels:{
-                        fontColor:'#000'
-                      }
-                    },
-                    layout:{
-                      padding:{
-                        left:50,
-                        right:0,
-                        bottom:0,
-                        top:0
-                      }
-                    },
-                    tooltips:{
-                      enabled:true
-                    }
-                  }
-                });
-              </script>
+        <div class="card" id="id2">
+            <h2>Wie essen Sie ihre Zucchini am liebsten?</h2>
+            <form>
+                <button class="click" type="button">Roh</button>
+                <br>
+                <button class="click" type="button">Medium</button>
+                <br>
+                <button class="click" type="button">Durchgebraten</button>
+            </form>
+        </div>
+        <div class="card">
+            <h2>Ist Jugend hackt toll?</h2>
+            <form>
+                <button class="click" type="button">Ja</button>
+                <br>
+                <button class="click" type="button">Nein</button>
+            </form>
+        </div>
+        <div class="card">
+            <h2>Ist Jugend hackt toll?</h2>
+            <form>
+                <button class="click" type="button">Ja</button>
+                <br>
+                <button class="click" type="button">Nein</button>
+            </form>
+        </div>
+        <div class="card">
+            <h2>Ist Jugend hackt toll?</h2>
+            <form>
+                <button class="click" type="button">Ja</button>
+                <br>
+                <button class="click" type="button">Nein</button>
+            </form>
+        </div>
+        <div class="card">
+            <h2>Ist Jugend hackt toll?</h2>
+            <form>
+                <button class="click" type="button">Ja</button>
+                <br>
+                <button class="click" type="button">Nein</button>
+            </form>
+        </div>
+        <div class="card">
+            <h2>Ist Jugend hackt toll?</h2>
+            <form>
+                <button class="click" type="button">Ja</button>
+                <br>
+                <button class="click" type="button">Nein</button>
+            </form>
+        </div>
+    </div>
+    <div class="container">
+        <canvas id="myChart"></canvas>
+    </div>
     <div id="footer">
         by Hannes, Joshua, Nikolai, Tobias, Nicolas und Vincent | #jhcgn18
     </div>
+    <script src="js/charts.js"></script>
 </body>
 
 </html>
