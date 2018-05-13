@@ -51,7 +51,7 @@
         function keydown (evt) { 
         if (!evt) evt = event; 
 
-        if (evt.altKey && evt.keyCode === 86) {
+        if (evt.altKey && evt.keyCode == 86) {
             alert("Upside down!\n :)"); 
 
             document.getElementById("content").style.transitionDuration = "2s";
@@ -63,9 +63,38 @@
 
             document.getElementById("content").innerHTML = "<h1>WTF?!</h1> <h3>Was ist hier los?</h3>";
         }
+        else if(evt.altKey && evt.keyCode == 87) {
+
+            if(document.getElementById("content").style.transform == 'rotate(180deg)') {
+                document.getElementById("content").style.transitionDuration = "2s";
+                document.getElementById("content").style.transform = "rotate(0deg)";
+                document.getElementById("navigationMenu").style.transitionDuration = "2s";
+                document.getElementById("navigationMenu").style.transform = "rotate(0deg)";
+                document.getElementById("footer").style.transitionDuration = "2s";
+                document.getElementById("footer").style.transform = "rotate(0deg)";
+
+                document.getElementById("content").innerHTML = " <h1>Einführung!</h1><h3>Auf dieser Seite kann jeder eine Umfrage erstellen!</h3><h3>...auch DU kannst eine Umfrage erstellen!</h3><br><h3>Du musst nur Thema, Titel, Frage, und Antwortmöglichkeiten angeben, und schon kann jeder deine Umfrage nutzen.</h3>";
+            } else if(document.getElementById("content").style.transform == 'rotate(360deg)') {
+                document.getElementById("content").style.transitionDuration = "1s";
+                document.getElementById("content").style.transform = "rotate(0deg)";
+                document.getElementById("navigationMenu").style.transitionDuration = "1s";
+                document.getElementById("navigationMenu").style.transform = "rotate(0deg)";
+                document.getElementById("footer").style.transitionDuration = "1s";
+                document.getElementById("footer").style.transform = "rotate(0deg)";
+            } else {
+                document.getElementById("content").style.transitionDuration = "1s";
+                document.getElementById("content").style.transform = "rotate(360deg)";
+                document.getElementById("navigationMenu").style.transitionDuration = "1s";
+                document.getElementById("navigationMenu").style.transform = "rotate(360deg)";
+                document.getElementById("footer").style.transitionDuration = "1s";
+                document.getElementById("footer").style.transform = "rotate(360deg)";
+        
+            }
+        }
 
     }
     </script>
+    
 </body>
 
 </html>
